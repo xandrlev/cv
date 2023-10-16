@@ -1726,37 +1726,10 @@ input[type="radio"] + label:before {
   font-family: "Font Awesome 5 Brands";
 }
 
-
-.phone {
-  display: block;
-  width: 20px;
-  height: 20px;
-
-  background: url(../webfonts/phone.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  cursor: pointer;
-  fill: #ffffff66;
-}
-.phone:hover{
-  fill: #49bf9d;
-}
-
-
-
 .skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
-}
-
-.skills-item {
-  /* height: 100px; */
-
-}
-
-.skills-title {
-  /* font-weight: 600; */
 }
 
 .skills-desc {
